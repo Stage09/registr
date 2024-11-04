@@ -9,19 +9,19 @@
 <body>
 
 
-    <section class="form-scet">
+    <section class="form-input">
         <div class="form-inner">
 
-            <form id="form">
+            <form class="form" id="form">
     
-                <input type="text" id="name" name="name" placeholder="ИМЯ" required>
-                <input type="number" id="phone" name="phone" placeholder="Номер телефона" required>
-                <input type="text" id="messages" placeholder="Сообщение" required name="messages" minlength="2">
+                <input class="form_input" type="text" id="name" name="name" placeholder="Имя" required>
+                <input class="form_input" type="number" id="phone" name="phone" placeholder="Номер телефона" required>
+                <input class="form_input" type="text" id="messages" placeholder="Сообщение" required name="messages" minlength="2">
     
-                <button type="submit">Отправить</button>
+                <button class="bg-form" type="submit">Отправить</button>
+                <p class="succes disp">Сообщение доставлено</p>
             </form>
 
-            <p class="succes disp">Сообщение доставлено</p>
 
         </div>
     </section>
