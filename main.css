@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./tmb_347971_445690\ \(1\).jpg);
+    background-image: url(./bmw-m5-staraya-bmv-angelskie\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -26,8 +26,11 @@ body{
 }
 .bg-form:hover{
     color: #389bcc;
-    background-color: transparent;
     border-color:#389bcc;
+    background: #ffffff12;
+}
+.mess{
+    height: 200px;
 }
 .form {
     height: 350px;
@@ -36,16 +39,16 @@ body{
     flex-direction: column;
     gap: 15px;
     padding: 40px;
-    background-color: transparent;
+    background-color:#00000070;
     border-radius:10px;
     margin: 200px auto;
+    color: white;
 }
 .form_input {
     padding: 15px 10px 15px 32px;
     border: 1px solid transparent;
     border-radius: 5px;
-    background: transparent;
-    color: aliceblue;
+    background: #ffffff12;
 }
 .form_input:active{
     
@@ -55,7 +58,7 @@ body{
     font-weight: 500;
     line-height: 26px;
     text-align: center;
-    color: rgb(76, 73, 73);
+    color: rgb(255, 255, 255);
 }
 .disp{
     display: none;
