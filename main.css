@@ -45,6 +45,30 @@ body{
     margin: 200px auto;
     color: white;
 } 
+.form_input {
+  color: white;
+  padding: 15px 10px 15px 32px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #ffffff12;
+}
+ .succes {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.disp{
+    display: none;
+}
+
+/* ----------------------------- */
+
+/* ----------------------------- */
+
+
 /* .form {
     width: 250px;
     height: 250px;
@@ -74,16 +98,7 @@ body{
       opacity: 1;
     }
   } */
-/* ----------------------------- */
 
-/* ----------------------------- */
-
-.form_input {
-    padding: 15px 10px 15px 32px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    background: #ffffff12;
-}
 /* .form_input {
     padding: 10px;
     border-radius: 5px;
