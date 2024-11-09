@@ -13,6 +13,7 @@ body{
  .bg-form {
     padding: 15px;
     background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 600px;
@@ -44,13 +45,15 @@ body{
     border-radius:10px;
     margin: 200px auto;
     color: white;
-} 
-.form_input {
-  color: white;
+  } 
+  .form_input {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
   padding: 15px 10px 15px 32px;
   border: 1px solid transparent;
   border-radius: 5px;
   background: #ffffff12;
+
 }
  .succes {
     font-size: 11px;
