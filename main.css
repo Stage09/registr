@@ -33,8 +33,8 @@ body{
 .mess{
     height: 200px;
 }
-/* ----------------------------- */
- .form {
+
+.form {
     height: 350px;
     width: 540px;
     display: flex;
@@ -68,6 +68,11 @@ body{
 }
 
 /* ----------------------------- */
+@media(max-width:420px){
+  .form {
+    width: 368px;
+  }
+}
 
 /* ----------------------------- */
 

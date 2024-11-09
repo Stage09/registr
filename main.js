@@ -4,11 +4,11 @@ const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 const succes = document.querySelector('.succes');
 
-document.getElementById('form').addEventListener('submit', function(e) {
+document.getElementById('form').addEventListener('submit', function(e){
 
     e.preventDefault();
 
-    let message = 'Заявка с сайта\n' + 'Имя:' + this.name.value + '\n' + 'Номер телефона: ' + this.phone.value + "\n" + 'Сообщение: ' + this.messages.value;
+    let message = 'Заявка с сайта:\n' + 'Имя:' + this.name.value + '\n' + 'Номер телефона: ' + this.phone.value + "\n" + 'Сообщение: ' + this.messages.value;
 
     axios.post(URL_API,{
         chat_id:CHAT_ID,
